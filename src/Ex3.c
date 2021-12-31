@@ -10,6 +10,7 @@ int main(void)
     printf("牛顿迭代法求解超越方程 x*sin(x)=1\n");
     printf("按下Enter键开始运行\n");
     getchar();
+    
     float x0, x1;
 
     x0 = 1.0;
