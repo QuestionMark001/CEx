@@ -50,5 +50,6 @@ int main(){
     }
     printf("最终胜利的游戏人员编号是：%d \n\n",GameMans[1].number);
 
+    //system("pause");   Windows操作系统下请务必将这一行注释"//"去掉！！！
     return 0;
 }

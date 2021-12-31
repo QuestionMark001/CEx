@@ -2,6 +2,7 @@
 *  在Linux下用gcc编译请使用gcc Ex3.c -lm -o Ex3命令
 */
 # include <stdio.h>
+//#include <stdlib.h>   //Windows操作系统下请务必将这一行注释"//"去掉！！！
 # include <math.h>
 # define eps 1e-6
 
