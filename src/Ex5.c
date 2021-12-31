@@ -1,3 +1,4 @@
+/* 轮盘赌算法 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -7,6 +8,10 @@ typedef struct GameMan{
 }GameMan;
 
 int main(){
+    printf("轮盘赌算法\n");
+    printf("按下Enter键开始运行\n");
+    getchar();
+
     int PersonNum;//游戏人数 
     int round=1;//游戏回合 
     int PersonPos=1;//起始人位置 
@@ -44,4 +49,6 @@ int main(){
         round++;//到回合数加一 
     }
     printf("最终胜利的游戏人员编号是：%d \n\n",GameMans[1].number);
+
+    return 0;
 }
