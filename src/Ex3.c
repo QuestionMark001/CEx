@@ -1,5 +1,5 @@
-/*  牛顿迭代法求解超越方程 x*sin(x)=1
-    在Linux下用gcc编译请使用gcc Ex3.c -lm -o Ex3命令
+/* 牛顿迭代法求解超越方程 x*sin(x)=1
+*  在Linux下用gcc编译请使用gcc Ex3.c -lm -o Ex3命令
 */
 # include <stdio.h>
 # include <math.h>
