@@ -14,7 +14,7 @@ int main(void)
     {
         for (y = 1; y <= x; y++)
         {
-            printf("%d*%d=%-3d",y,x,x*y);
+            printf("%d*%d=%-5d",y,x,x*y);
         }
         printf("\n");
         
